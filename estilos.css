@@ -1,0 +1,39 @@
+body {
+    background-color: #E9E9E9;
+    color: #333333;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #B7C9B1;
+    padding: 15px;
+}
+
+nav {
+    background-color: #DCD1E8;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+main {
+    padding: 15px;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 400px;
+}
+
+footer {
+    background-color: #B7C9B1;
+    padding: 15px;
+}
