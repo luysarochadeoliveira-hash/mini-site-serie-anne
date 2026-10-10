@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
     <header>
         <h1>Entre em contato</h1>
 
@@ -27,6 +28,7 @@
             </p>
 
             <form action="">
+
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome"
                        placeholder="Digite seu nome" required>
@@ -42,16 +44,33 @@
                 <label for="assunto">Assunto:</label>
                 <input type="text" id="assunto" name="assunto"
                        placeholder="Digite o assunto" required>
-               <br><br>
-                <p>Categoria:</p>
-                <input type="checkbox" id="duvida" name="categoria" value="Dúvida">
-                <label for="duvida">Dúvida</label>
 
-                <input type="checkbox" id="sugestao" name="categoria" value="Sugestão"> <label for="sugestao">Sugestão</label>
+                <br><br>
 
-                <input type="checkbox" id="elogio" name="categoria" value="Elogio"> <label for="elogio">Elogio</label>
+                <label for="categoria">Categoria:</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="Duvida">Dúvida</option>
+                    <option value="Sugestao">Sugestão</option>
+                    <option value="Elogio">Elogio</option>
+                    <option value="Outro">Outro</option>
+                </select>
 
-                <input type="checkbox" id="outro" name="categoria" value="Outro"> <label for="outro">Outro</label>
+                <br><br>
+
+                <p>Quais assuntos sobre a série você gostaria de conhecer?</p>
+                
+                <input type="checkbox" id="personagens" name="interesses" value="Personagens">
+                <label for="personagens">Personagens</label>
+
+                <input type="checkbox" id="historia" name="interesses" value="Historia">
+                <label for="historia">História de Filmes</label>
+                
+                <input type="checkbox" id="curiosidades" name="interesses" value="Curiosidades"> <label for="curiosidades">Curiosidades</label>
+                
+                <input type="checkbox" id="livros" name="interesses" value="Livros">
+                <label for="livros">Livros</label>
+
 
                 <br><br>
 
@@ -65,6 +84,7 @@
                 <br><br>
 
                 <button type="submit">Enviar mensagem</button>
+
             </form>
         </section>
     </main>
@@ -72,5 +92,6 @@
     <footer>
         <p>&copy; 2026 - Conhecendo Anne with an E</p>
     </footer>
+
 </body>
 </html>
